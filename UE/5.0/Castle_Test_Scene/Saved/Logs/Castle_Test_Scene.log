@@ -975,3 +975,15 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.07.02-17.54.12:511][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v10_clang-5.0.0-centos7, MaxAllowed=v19_clang-11.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
 [2022.07.02-17.54.12:511][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.22000.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
 [2022.07.02-17.54.12:593][  0]LogSlate: Took 0.009319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.02-17.54.16:573][  0]LogStall: Startup...
+[2022.07.02-17.54.16:578][  0]LogStall: Startup complete.
+[2022.07.02-17.54.16:759][  0]LogLoad: (Engine Initialization) Total time: 46.40 seconds
+[2022.07.02-17.54.16:759][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.07.02-17.54.16:939][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2022.07.02-17.54.16:946][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2022.07.02-17.54.16:988][  0]LogAssetRegistry: Asset discovery search completed in 31.3194 seconds
+[2022.07.02-17.54.17:005][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2022.07.02-17.54.17:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.07.02-17.54.18:691][  3]LogSlate: Took 0.000492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.02-17.55.05:327][519]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 518
+[2022.07.02-17.55.05:327][519]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
